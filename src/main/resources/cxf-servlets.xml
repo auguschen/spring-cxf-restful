@@ -21,8 +21,8 @@
 	</jaxws:endpoint>  
 	
 <!-- restful webservice -->  
-<!-- 
-	<jaxrs:server id="rsExampleTest" address="/">  
+
+	<jaxrs:server id="rsExampleTest" address="/rest/exam">  
 		<jaxrs:serviceBeans>  
 	    <ref bean="exampletestService" />  
 		</jaxrs:serviceBeans>  
@@ -30,9 +30,9 @@
 	    <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider" />  
 		</jaxrs:providers>  
 	</jaxrs:server>
- -->	
+	
 
-	<jaxrs:server id="restContainer" address="/">
+	<jaxrs:server id="restContainer" address="/rest/time">
 		<jaxrs:serviceBeans>
 			<ref bean="timeService" />
 		</jaxrs:serviceBeans>

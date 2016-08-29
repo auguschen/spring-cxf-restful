@@ -1,4 +1,4 @@
-package com.airchina.xn.restfultest.webservice.impl;
+package com.airchina.xn.rest.webservice.impl;
 
 import java.util.Calendar;
 import java.util.Locale;
@@ -10,10 +10,10 @@ import javax.ws.rs.Produces;
 import org.springframework.format.datetime.DateFormatter;
 import org.springframework.stereotype.Service;
 
-import com.airchina.xn.restfultest.webservice.TimeService;
+import com.airchina.xn.rest.webservice.TimeService;
 
 @Service("timeService")
-@Path("time")
+@Path("/")
 public class TimeServiceImpl implements TimeService {
 
 	@Override

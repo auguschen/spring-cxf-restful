@@ -1,4 +1,4 @@
-package com.airchina.xn.restfultest.webservice;
+package com.airchina.xn.rest.webservice;
 
 public interface TimeService {
 

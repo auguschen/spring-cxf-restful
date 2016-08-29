@@ -1,4 +1,4 @@
-package com.airchina.xn.restfultest.webservice.impl;
+package com.airchina.xn.rest.webservice.impl;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -8,10 +8,10 @@ import javax.ws.rs.core.MediaType;
 import org.springframework.stereotype.Service;
 
 import com.airchina.xn.model.Order;
-import com.airchina.xn.restfultest.webservice.ExampleTest;
+import com.airchina.xn.rest.webservice.ExampleTest;
 
 @Service("exampletestService")
-@Path("exam")
+@Path("/")
 public class ExampleTestImpl implements ExampleTest {
 
 	@Override
